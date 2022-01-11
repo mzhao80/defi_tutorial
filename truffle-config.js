@@ -15,12 +15,12 @@ module.exports = {
     },
     testnet: {
       provider: () => new HDWalletProvider(privateKeys.split(','), testnet),
-      network_id: 1666700000,
+      network_id: 5777,
       skipDryRun: true,
     },
     mainnet: {
       provider: () => new HDWalletProvider(privateKeys.split(','), mainnet),
-      network_id: 1666600000,
+      network_id: 1,
       skipDryRun: true,
     },
   },
